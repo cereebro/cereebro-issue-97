@@ -1,0 +1,8 @@
+eureka:
+  client:
+    service-url:
+       defaultZone: https://${eureka.security.user.name}:${eureka.security.user.password}@cereebro-netflix-eureka-server.herokuapp.com/eureka
+
+management:
+  security:
+    enabled: false
