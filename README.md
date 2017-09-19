@@ -6,3 +6,4 @@ Start the app and pass the Eureka Server credentials as arguments or environment
  * `eureka.security.user.password`
 
 Remove these variables in `application.yaml` if your Eureka Server is not using Spring Security.
+
